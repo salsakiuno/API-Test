@@ -1,0 +1,2663 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "properties": {
+    "id": {
+      "$id": "/properties/id",
+      "type": "integer",
+      "title": "The Id Schema ",
+      "default": 0,
+      "examples": [
+        132619461
+      ]
+    },
+    "name": {
+      "$id": "/properties/name",
+      "type": "string",
+      "title": "The Name Schema ",
+      "default": "",
+      "examples": [
+        "SingleDateAndTimePicker"
+      ]
+    },
+    "full_name": {
+      "$id": "/properties/full_name",
+      "type": "string",
+      "title": "The Full_name Schema ",
+      "default": "",
+      "examples": [
+        "metrolab/SingleDateAndTimePicker"
+      ]
+    },
+    "owner": {
+      "$id": "/properties/owner",
+      "type": "object",
+      "properties": {
+        "login": {
+          "$id": "/properties/owner/properties/login",
+          "type": "string",
+          "title": "The Login Schema ",
+          "default": "",
+          "examples": [
+            "metrolab"
+          ]
+        },
+        "id": {
+          "$id": "/properties/owner/properties/id",
+          "type": "integer",
+          "title": "The Id Schema ",
+          "default": 0,
+          "examples": [
+            28804024
+          ]
+        },
+        "avatar_url": {
+          "$id": "/properties/owner/properties/avatar_url",
+          "type": "string",
+          "title": "The Avatar_url Schema ",
+          "default": "",
+          "examples": [
+            "https://avatars3.githubusercontent.com/u/28804024?v=4"
+          ]
+        },
+        "gravatar_id": {
+          "$id": "/properties/owner/properties/gravatar_id",
+          "type": "string",
+          "title": "The Gravatar_id Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        },
+        "url": {
+          "$id": "/properties/owner/properties/url",
+          "type": "string",
+          "title": "The Url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/metrolab"
+          ]
+        },
+        "html_url": {
+          "$id": "/properties/owner/properties/html_url",
+          "type": "string",
+          "title": "The Html_url Schema ",
+          "default": "",
+          "examples": [
+            "https://github.com/metrolab"
+          ]
+        },
+        "followers_url": {
+          "$id": "/properties/owner/properties/followers_url",
+          "type": "string",
+          "title": "The Followers_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/metrolab/followers"
+          ]
+        },
+        "following_url": {
+          "$id": "/properties/owner/properties/following_url",
+          "type": "string",
+          "title": "The Following_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/metrolab/following{/other_user}"
+          ]
+        },
+        "gists_url": {
+          "$id": "/properties/owner/properties/gists_url",
+          "type": "string",
+          "title": "The Gists_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/metrolab/gists{/gist_id}"
+          ]
+        },
+        "starred_url": {
+          "$id": "/properties/owner/properties/starred_url",
+          "type": "string",
+          "title": "The Starred_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/metrolab/starred{/owner}{/repo}"
+          ]
+        },
+        "subscriptions_url": {
+          "$id": "/properties/owner/properties/subscriptions_url",
+          "type": "string",
+          "title": "The Subscriptions_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/metrolab/subscriptions"
+          ]
+        },
+        "organizations_url": {
+          "$id": "/properties/owner/properties/organizations_url",
+          "type": "string",
+          "title": "The Organizations_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/metrolab/orgs"
+          ]
+        },
+        "repos_url": {
+          "$id": "/properties/owner/properties/repos_url",
+          "type": "string",
+          "title": "The Repos_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/metrolab/repos"
+          ]
+        },
+        "events_url": {
+          "$id": "/properties/owner/properties/events_url",
+          "type": "string",
+          "title": "The Events_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/metrolab/events{/privacy}"
+          ]
+        },
+        "received_events_url": {
+          "$id": "/properties/owner/properties/received_events_url",
+          "type": "string",
+          "title": "The Received_events_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/metrolab/received_events"
+          ]
+        },
+        "type": {
+          "$id": "/properties/owner/properties/type",
+          "type": "string",
+          "title": "The Type Schema ",
+          "default": "",
+          "examples": [
+            "Organization"
+          ]
+        },
+        "site_admin": {
+          "$id": "/properties/owner/properties/site_admin",
+          "type": "boolean",
+          "title": "The Site_admin Schema ",
+          "default": false,
+          "examples": [
+            false
+          ]
+        }
+      }
+    },
+    "private": {
+      "$id": "/properties/private",
+      "type": "boolean",
+      "title": "The Private Schema ",
+      "default": false,
+      "examples": [
+        false
+      ]
+    },
+    "html_url": {
+      "$id": "/properties/html_url",
+      "type": "string",
+      "title": "The Html_url Schema ",
+      "default": "",
+      "examples": [
+        "https://github.com/metrolab/SingleDateAndTimePicker"
+      ]
+    },
+    "description": {
+      "$id": "/properties/description",
+      "type": "string",
+      "title": "The Description Schema ",
+      "default": "",
+      "examples": [
+        "You can now select a date and a time with only one widget !"
+      ]
+    },
+    "fork": {
+      "$id": "/properties/fork",
+      "type": "boolean",
+      "title": "The Fork Schema ",
+      "default": false,
+      "examples": [
+        true
+      ]
+    },
+    "url": {
+      "$id": "/properties/url",
+      "type": "string",
+      "title": "The Url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker"
+      ]
+    },
+    "forks_url": {
+      "$id": "/properties/forks_url",
+      "type": "string",
+      "title": "The Forks_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/forks"
+      ]
+    },
+    "keys_url": {
+      "$id": "/properties/keys_url",
+      "type": "string",
+      "title": "The Keys_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/keys{/key_id}"
+      ]
+    },
+    "collaborators_url": {
+      "$id": "/properties/collaborators_url",
+      "type": "string",
+      "title": "The Collaborators_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/collaborators{/collaborator}"
+      ]
+    },
+    "teams_url": {
+      "$id": "/properties/teams_url",
+      "type": "string",
+      "title": "The Teams_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/teams"
+      ]
+    },
+    "hooks_url": {
+      "$id": "/properties/hooks_url",
+      "type": "string",
+      "title": "The Hooks_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/hooks"
+      ]
+    },
+    "issue_events_url": {
+      "$id": "/properties/issue_events_url",
+      "type": "string",
+      "title": "The Issue_events_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/issues/events{/number}"
+      ]
+    },
+    "events_url": {
+      "$id": "/properties/events_url",
+      "type": "string",
+      "title": "The Events_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/events"
+      ]
+    },
+    "assignees_url": {
+      "$id": "/properties/assignees_url",
+      "type": "string",
+      "title": "The Assignees_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/assignees{/user}"
+      ]
+    },
+    "branches_url": {
+      "$id": "/properties/branches_url",
+      "type": "string",
+      "title": "The Branches_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/branches{/branch}"
+      ]
+    },
+    "tags_url": {
+      "$id": "/properties/tags_url",
+      "type": "string",
+      "title": "The Tags_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/tags"
+      ]
+    },
+    "blobs_url": {
+      "$id": "/properties/blobs_url",
+      "type": "string",
+      "title": "The Blobs_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/git/blobs{/sha}"
+      ]
+    },
+    "git_tags_url": {
+      "$id": "/properties/git_tags_url",
+      "type": "string",
+      "title": "The Git_tags_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/git/tags{/sha}"
+      ]
+    },
+    "git_refs_url": {
+      "$id": "/properties/git_refs_url",
+      "type": "string",
+      "title": "The Git_refs_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/git/refs{/sha}"
+      ]
+    },
+    "trees_url": {
+      "$id": "/properties/trees_url",
+      "type": "string",
+      "title": "The Trees_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/git/trees{/sha}"
+      ]
+    },
+    "statuses_url": {
+      "$id": "/properties/statuses_url",
+      "type": "string",
+      "title": "The Statuses_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/statuses/{sha}"
+      ]
+    },
+    "languages_url": {
+      "$id": "/properties/languages_url",
+      "type": "string",
+      "title": "The Languages_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/languages"
+      ]
+    },
+    "stargazers_url": {
+      "$id": "/properties/stargazers_url",
+      "type": "string",
+      "title": "The Stargazers_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/stargazers"
+      ]
+    },
+    "contributors_url": {
+      "$id": "/properties/contributors_url",
+      "type": "string",
+      "title": "The Contributors_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/contributors"
+      ]
+    },
+    "subscribers_url": {
+      "$id": "/properties/subscribers_url",
+      "type": "string",
+      "title": "The Subscribers_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/subscribers"
+      ]
+    },
+    "subscription_url": {
+      "$id": "/properties/subscription_url",
+      "type": "string",
+      "title": "The Subscription_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/subscription"
+      ]
+    },
+    "commits_url": {
+      "$id": "/properties/commits_url",
+      "type": "string",
+      "title": "The Commits_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/commits{/sha}"
+      ]
+    },
+    "git_commits_url": {
+      "$id": "/properties/git_commits_url",
+      "type": "string",
+      "title": "The Git_commits_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/git/commits{/sha}"
+      ]
+    },
+    "comments_url": {
+      "$id": "/properties/comments_url",
+      "type": "string",
+      "title": "The Comments_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/comments{/number}"
+      ]
+    },
+    "issue_comment_url": {
+      "$id": "/properties/issue_comment_url",
+      "type": "string",
+      "title": "The Issue_comment_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/issues/comments{/number}"
+      ]
+    },
+    "contents_url": {
+      "$id": "/properties/contents_url",
+      "type": "string",
+      "title": "The Contents_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/contents/{+path}"
+      ]
+    },
+    "compare_url": {
+      "$id": "/properties/compare_url",
+      "type": "string",
+      "title": "The Compare_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/compare/{base}...{head}"
+      ]
+    },
+    "merges_url": {
+      "$id": "/properties/merges_url",
+      "type": "string",
+      "title": "The Merges_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/merges"
+      ]
+    },
+    "archive_url": {
+      "$id": "/properties/archive_url",
+      "type": "string",
+      "title": "The Archive_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/{archive_format}{/ref}"
+      ]
+    },
+    "downloads_url": {
+      "$id": "/properties/downloads_url",
+      "type": "string",
+      "title": "The Downloads_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/downloads"
+      ]
+    },
+    "issues_url": {
+      "$id": "/properties/issues_url",
+      "type": "string",
+      "title": "The Issues_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/issues{/number}"
+      ]
+    },
+    "pulls_url": {
+      "$id": "/properties/pulls_url",
+      "type": "string",
+      "title": "The Pulls_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/pulls{/number}"
+      ]
+    },
+    "milestones_url": {
+      "$id": "/properties/milestones_url",
+      "type": "string",
+      "title": "The Milestones_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/milestones{/number}"
+      ]
+    },
+    "notifications_url": {
+      "$id": "/properties/notifications_url",
+      "type": "string",
+      "title": "The Notifications_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/notifications{?since,all,participating}"
+      ]
+    },
+    "labels_url": {
+      "$id": "/properties/labels_url",
+      "type": "string",
+      "title": "The Labels_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/labels{/name}"
+      ]
+    },
+    "releases_url": {
+      "$id": "/properties/releases_url",
+      "type": "string",
+      "title": "The Releases_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/releases{/id}"
+      ]
+    },
+    "deployments_url": {
+      "$id": "/properties/deployments_url",
+      "type": "string",
+      "title": "The Deployments_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/repos/metrolab/SingleDateAndTimePicker/deployments"
+      ]
+    },
+    "created_at": {
+      "$id": "/properties/created_at",
+      "type": "string",
+      "title": "The Created_at Schema ",
+      "default": "",
+      "examples": [
+        "2018-05-08T14:16:46Z"
+      ]
+    },
+    "updated_at": {
+      "$id": "/properties/updated_at",
+      "type": "string",
+      "title": "The Updated_at Schema ",
+      "default": "",
+      "examples": [
+        "2018-05-08T14:58:56Z"
+      ]
+    },
+    "pushed_at": {
+      "$id": "/properties/pushed_at",
+      "type": "string",
+      "title": "The Pushed_at Schema ",
+      "default": "",
+      "examples": [
+        "2018-05-08T14:58:55Z"
+      ]
+    },
+    "git_url": {
+      "$id": "/properties/git_url",
+      "type": "string",
+      "title": "The Git_url Schema ",
+      "default": "",
+      "examples": [
+        "git://github.com/metrolab/SingleDateAndTimePicker.git"
+      ]
+    },
+    "ssh_url": {
+      "$id": "/properties/ssh_url",
+      "type": "string",
+      "title": "The Ssh_url Schema ",
+      "default": "",
+      "examples": [
+        "git@github.com:metrolab/SingleDateAndTimePicker.git"
+      ]
+    },
+    "clone_url": {
+      "$id": "/properties/clone_url",
+      "type": "string",
+      "title": "The Clone_url Schema ",
+      "default": "",
+      "examples": [
+        "https://github.com/metrolab/SingleDateAndTimePicker.git"
+      ]
+    },
+    "svn_url": {
+      "$id": "/properties/svn_url",
+      "type": "string",
+      "title": "The Svn_url Schema ",
+      "default": "",
+      "examples": [
+        "https://github.com/metrolab/SingleDateAndTimePicker"
+      ]
+    },
+    "homepage": {
+      "$id": "/properties/homepage",
+      "type": "string",
+      "title": "The Homepage Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "size": {
+      "$id": "/properties/size",
+      "type": "integer",
+      "title": "The Size Schema ",
+      "default": 0,
+      "examples": [
+        21826
+      ]
+    },
+    "stargazers_count": {
+      "$id": "/properties/stargazers_count",
+      "type": "integer",
+      "title": "The Stargazers_count Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "watchers_count": {
+      "$id": "/properties/watchers_count",
+      "type": "integer",
+      "title": "The Watchers_count Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "language": {
+      "$id": "/properties/language",
+      "type": "string",
+      "title": "The Language Schema ",
+      "default": "",
+      "examples": [
+        "Java"
+      ]
+    },
+    "has_issues": {
+      "$id": "/properties/has_issues",
+      "type": "boolean",
+      "title": "The Has_issues Schema ",
+      "default": false,
+      "examples": [
+        false
+      ]
+    },
+    "has_projects": {
+      "$id": "/properties/has_projects",
+      "type": "boolean",
+      "title": "The Has_projects Schema ",
+      "default": false,
+      "examples": [
+        true
+      ]
+    },
+    "has_downloads": {
+      "$id": "/properties/has_downloads",
+      "type": "boolean",
+      "title": "The Has_downloads Schema ",
+      "default": false,
+      "examples": [
+        true
+      ]
+    },
+    "has_wiki": {
+      "$id": "/properties/has_wiki",
+      "type": "boolean",
+      "title": "The Has_wiki Schema ",
+      "default": false,
+      "examples": [
+        true
+      ]
+    },
+    "has_pages": {
+      "$id": "/properties/has_pages",
+      "type": "boolean",
+      "title": "The Has_pages Schema ",
+      "default": false,
+      "examples": [
+        false
+      ]
+    },
+    "forks_count": {
+      "$id": "/properties/forks_count",
+      "type": "integer",
+      "title": "The Forks_count Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "mirror_url": {
+      "$id": "/properties/mirror_url",
+      "type": "null",
+      "title": "The Mirror_url Schema ",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "archived": {
+      "$id": "/properties/archived",
+      "type": "boolean",
+      "title": "The Archived Schema ",
+      "default": false,
+      "examples": [
+        false
+      ]
+    },
+    "open_issues_count": {
+      "$id": "/properties/open_issues_count",
+      "type": "integer",
+      "title": "The Open_issues_count Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "license": {
+      "$id": "/properties/license",
+      "type": "object",
+      "properties": {
+        "key": {
+          "$id": "/properties/license/properties/key",
+          "type": "string",
+          "title": "The Key Schema ",
+          "default": "",
+          "examples": [
+            "apache-2.0"
+          ]
+        },
+        "name": {
+          "$id": "/properties/license/properties/name",
+          "type": "string",
+          "title": "The Name Schema ",
+          "default": "",
+          "examples": [
+            "Apache License 2.0"
+          ]
+        },
+        "spdx_id": {
+          "$id": "/properties/license/properties/spdx_id",
+          "type": "string",
+          "title": "The Spdx_id Schema ",
+          "default": "",
+          "examples": [
+            "Apache-2.0"
+          ]
+        },
+        "url": {
+          "$id": "/properties/license/properties/url",
+          "type": "string",
+          "title": "The Url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/licenses/apache-2.0"
+          ]
+        }
+      }
+    },
+    "forks": {
+      "$id": "/properties/forks",
+      "type": "integer",
+      "title": "The Forks Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "open_issues": {
+      "$id": "/properties/open_issues",
+      "type": "integer",
+      "title": "The Open_issues Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "watchers": {
+      "$id": "/properties/watchers",
+      "type": "integer",
+      "title": "The Watchers Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "default_branch": {
+      "$id": "/properties/default_branch",
+      "type": "string",
+      "title": "The Default_branch Schema ",
+      "default": "",
+      "examples": [
+        "master"
+      ]
+    },
+    "organization": {
+      "$id": "/properties/organization",
+      "type": "object",
+      "properties": {
+        "login": {
+          "$id": "/properties/organization/properties/login",
+          "type": "string",
+          "title": "The Login Schema ",
+          "default": "",
+          "examples": [
+            "metrolab"
+          ]
+        },
+        "id": {
+          "$id": "/properties/organization/properties/id",
+          "type": "integer",
+          "title": "The Id Schema ",
+          "default": 0,
+          "examples": [
+            28804024
+          ]
+        },
+        "avatar_url": {
+          "$id": "/properties/organization/properties/avatar_url",
+          "type": "string",
+          "title": "The Avatar_url Schema ",
+          "default": "",
+          "examples": [
+            "https://avatars3.githubusercontent.com/u/28804024?v=4"
+          ]
+        },
+        "gravatar_id": {
+          "$id": "/properties/organization/properties/gravatar_id",
+          "type": "string",
+          "title": "The Gravatar_id Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        },
+        "url": {
+          "$id": "/properties/organization/properties/url",
+          "type": "string",
+          "title": "The Url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/metrolab"
+          ]
+        },
+        "html_url": {
+          "$id": "/properties/organization/properties/html_url",
+          "type": "string",
+          "title": "The Html_url Schema ",
+          "default": "",
+          "examples": [
+            "https://github.com/metrolab"
+          ]
+        },
+        "followers_url": {
+          "$id": "/properties/organization/properties/followers_url",
+          "type": "string",
+          "title": "The Followers_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/metrolab/followers"
+          ]
+        },
+        "following_url": {
+          "$id": "/properties/organization/properties/following_url",
+          "type": "string",
+          "title": "The Following_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/metrolab/following{/other_user}"
+          ]
+        },
+        "gists_url": {
+          "$id": "/properties/organization/properties/gists_url",
+          "type": "string",
+          "title": "The Gists_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/metrolab/gists{/gist_id}"
+          ]
+        },
+        "starred_url": {
+          "$id": "/properties/organization/properties/starred_url",
+          "type": "string",
+          "title": "The Starred_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/metrolab/starred{/owner}{/repo}"
+          ]
+        },
+        "subscriptions_url": {
+          "$id": "/properties/organization/properties/subscriptions_url",
+          "type": "string",
+          "title": "The Subscriptions_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/metrolab/subscriptions"
+          ]
+        },
+        "organizations_url": {
+          "$id": "/properties/organization/properties/organizations_url",
+          "type": "string",
+          "title": "The Organizations_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/metrolab/orgs"
+          ]
+        },
+        "repos_url": {
+          "$id": "/properties/organization/properties/repos_url",
+          "type": "string",
+          "title": "The Repos_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/metrolab/repos"
+          ]
+        },
+        "events_url": {
+          "$id": "/properties/organization/properties/events_url",
+          "type": "string",
+          "title": "The Events_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/metrolab/events{/privacy}"
+          ]
+        },
+        "received_events_url": {
+          "$id": "/properties/organization/properties/received_events_url",
+          "type": "string",
+          "title": "The Received_events_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/users/metrolab/received_events"
+          ]
+        },
+        "type": {
+          "$id": "/properties/organization/properties/type",
+          "type": "string",
+          "title": "The Type Schema ",
+          "default": "",
+          "examples": [
+            "Organization"
+          ]
+        },
+        "site_admin": {
+          "$id": "/properties/organization/properties/site_admin",
+          "type": "boolean",
+          "title": "The Site_admin Schema ",
+          "default": false,
+          "examples": [
+            false
+          ]
+        }
+      }
+    },
+    "parent": {
+      "$id": "/properties/parent",
+      "type": "object",
+      "properties": {
+        "id": {
+          "$id": "/properties/parent/properties/id",
+          "type": "integer",
+          "title": "The Id Schema ",
+          "default": 0,
+          "examples": [
+            75409471
+          ]
+        },
+        "name": {
+          "$id": "/properties/parent/properties/name",
+          "type": "string",
+          "title": "The Name Schema ",
+          "default": "",
+          "examples": [
+            "SingleDateAndTimePicker"
+          ]
+        },
+        "full_name": {
+          "$id": "/properties/parent/properties/full_name",
+          "type": "string",
+          "title": "The Full_name Schema ",
+          "default": "",
+          "examples": [
+            "florent37/SingleDateAndTimePicker"
+          ]
+        },
+        "owner": {
+          "$id": "/properties/parent/properties/owner",
+          "type": "object",
+          "properties": {
+            "login": {
+              "$id": "/properties/parent/properties/owner/properties/login",
+              "type": "string",
+              "title": "The Login Schema ",
+              "default": "",
+              "examples": [
+                "florent37"
+              ]
+            },
+            "id": {
+              "$id": "/properties/parent/properties/owner/properties/id",
+              "type": "integer",
+              "title": "The Id Schema ",
+              "default": 0,
+              "examples": [
+                5754972
+              ]
+            },
+            "avatar_url": {
+              "$id": "/properties/parent/properties/owner/properties/avatar_url",
+              "type": "string",
+              "title": "The Avatar_url Schema ",
+              "default": "",
+              "examples": [
+                "https://avatars2.githubusercontent.com/u/5754972?v=4"
+              ]
+            },
+            "gravatar_id": {
+              "$id": "/properties/parent/properties/owner/properties/gravatar_id",
+              "type": "string",
+              "title": "The Gravatar_id Schema ",
+              "default": "",
+              "examples": [
+                ""
+              ]
+            },
+            "url": {
+              "$id": "/properties/parent/properties/owner/properties/url",
+              "type": "string",
+              "title": "The Url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/users/florent37"
+              ]
+            },
+            "html_url": {
+              "$id": "/properties/parent/properties/owner/properties/html_url",
+              "type": "string",
+              "title": "The Html_url Schema ",
+              "default": "",
+              "examples": [
+                "https://github.com/florent37"
+              ]
+            },
+            "followers_url": {
+              "$id": "/properties/parent/properties/owner/properties/followers_url",
+              "type": "string",
+              "title": "The Followers_url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/users/florent37/followers"
+              ]
+            },
+            "following_url": {
+              "$id": "/properties/parent/properties/owner/properties/following_url",
+              "type": "string",
+              "title": "The Following_url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/users/florent37/following{/other_user}"
+              ]
+            },
+            "gists_url": {
+              "$id": "/properties/parent/properties/owner/properties/gists_url",
+              "type": "string",
+              "title": "The Gists_url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/users/florent37/gists{/gist_id}"
+              ]
+            },
+            "starred_url": {
+              "$id": "/properties/parent/properties/owner/properties/starred_url",
+              "type": "string",
+              "title": "The Starred_url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/users/florent37/starred{/owner}{/repo}"
+              ]
+            },
+            "subscriptions_url": {
+              "$id": "/properties/parent/properties/owner/properties/subscriptions_url",
+              "type": "string",
+              "title": "The Subscriptions_url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/users/florent37/subscriptions"
+              ]
+            },
+            "organizations_url": {
+              "$id": "/properties/parent/properties/owner/properties/organizations_url",
+              "type": "string",
+              "title": "The Organizations_url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/users/florent37/orgs"
+              ]
+            },
+            "repos_url": {
+              "$id": "/properties/parent/properties/owner/properties/repos_url",
+              "type": "string",
+              "title": "The Repos_url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/users/florent37/repos"
+              ]
+            },
+            "events_url": {
+              "$id": "/properties/parent/properties/owner/properties/events_url",
+              "type": "string",
+              "title": "The Events_url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/users/florent37/events{/privacy}"
+              ]
+            },
+            "received_events_url": {
+              "$id": "/properties/parent/properties/owner/properties/received_events_url",
+              "type": "string",
+              "title": "The Received_events_url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/users/florent37/received_events"
+              ]
+            },
+            "type": {
+              "$id": "/properties/parent/properties/owner/properties/type",
+              "type": "string",
+              "title": "The Type Schema ",
+              "default": "",
+              "examples": [
+                "User"
+              ]
+            },
+            "site_admin": {
+              "$id": "/properties/parent/properties/owner/properties/site_admin",
+              "type": "boolean",
+              "title": "The Site_admin Schema ",
+              "default": false,
+              "examples": [
+                false
+              ]
+            }
+          }
+        },
+        "private": {
+          "$id": "/properties/parent/properties/private",
+          "type": "boolean",
+          "title": "The Private Schema ",
+          "default": false,
+          "examples": [
+            false
+          ]
+        },
+        "html_url": {
+          "$id": "/properties/parent/properties/html_url",
+          "type": "string",
+          "title": "The Html_url Schema ",
+          "default": "",
+          "examples": [
+            "https://github.com/florent37/SingleDateAndTimePicker"
+          ]
+        },
+        "description": {
+          "$id": "/properties/parent/properties/description",
+          "type": "string",
+          "title": "The Description Schema ",
+          "default": "",
+          "examples": [
+            "You can now select a date and a time with only one widget !"
+          ]
+        },
+        "fork": {
+          "$id": "/properties/parent/properties/fork",
+          "type": "boolean",
+          "title": "The Fork Schema ",
+          "default": false,
+          "examples": [
+            false
+          ]
+        },
+        "url": {
+          "$id": "/properties/parent/properties/url",
+          "type": "string",
+          "title": "The Url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker"
+          ]
+        },
+        "forks_url": {
+          "$id": "/properties/parent/properties/forks_url",
+          "type": "string",
+          "title": "The Forks_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/forks"
+          ]
+        },
+        "keys_url": {
+          "$id": "/properties/parent/properties/keys_url",
+          "type": "string",
+          "title": "The Keys_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/keys{/key_id}"
+          ]
+        },
+        "collaborators_url": {
+          "$id": "/properties/parent/properties/collaborators_url",
+          "type": "string",
+          "title": "The Collaborators_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/collaborators{/collaborator}"
+          ]
+        },
+        "teams_url": {
+          "$id": "/properties/parent/properties/teams_url",
+          "type": "string",
+          "title": "The Teams_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/teams"
+          ]
+        },
+        "hooks_url": {
+          "$id": "/properties/parent/properties/hooks_url",
+          "type": "string",
+          "title": "The Hooks_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/hooks"
+          ]
+        },
+        "issue_events_url": {
+          "$id": "/properties/parent/properties/issue_events_url",
+          "type": "string",
+          "title": "The Issue_events_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/issues/events{/number}"
+          ]
+        },
+        "events_url": {
+          "$id": "/properties/parent/properties/events_url",
+          "type": "string",
+          "title": "The Events_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/events"
+          ]
+        },
+        "assignees_url": {
+          "$id": "/properties/parent/properties/assignees_url",
+          "type": "string",
+          "title": "The Assignees_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/assignees{/user}"
+          ]
+        },
+        "branches_url": {
+          "$id": "/properties/parent/properties/branches_url",
+          "type": "string",
+          "title": "The Branches_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/branches{/branch}"
+          ]
+        },
+        "tags_url": {
+          "$id": "/properties/parent/properties/tags_url",
+          "type": "string",
+          "title": "The Tags_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/tags"
+          ]
+        },
+        "blobs_url": {
+          "$id": "/properties/parent/properties/blobs_url",
+          "type": "string",
+          "title": "The Blobs_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/git/blobs{/sha}"
+          ]
+        },
+        "git_tags_url": {
+          "$id": "/properties/parent/properties/git_tags_url",
+          "type": "string",
+          "title": "The Git_tags_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/git/tags{/sha}"
+          ]
+        },
+        "git_refs_url": {
+          "$id": "/properties/parent/properties/git_refs_url",
+          "type": "string",
+          "title": "The Git_refs_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/git/refs{/sha}"
+          ]
+        },
+        "trees_url": {
+          "$id": "/properties/parent/properties/trees_url",
+          "type": "string",
+          "title": "The Trees_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/git/trees{/sha}"
+          ]
+        },
+        "statuses_url": {
+          "$id": "/properties/parent/properties/statuses_url",
+          "type": "string",
+          "title": "The Statuses_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/statuses/{sha}"
+          ]
+        },
+        "languages_url": {
+          "$id": "/properties/parent/properties/languages_url",
+          "type": "string",
+          "title": "The Languages_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/languages"
+          ]
+        },
+        "stargazers_url": {
+          "$id": "/properties/parent/properties/stargazers_url",
+          "type": "string",
+          "title": "The Stargazers_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/stargazers"
+          ]
+        },
+        "contributors_url": {
+          "$id": "/properties/parent/properties/contributors_url",
+          "type": "string",
+          "title": "The Contributors_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/contributors"
+          ]
+        },
+        "subscribers_url": {
+          "$id": "/properties/parent/properties/subscribers_url",
+          "type": "string",
+          "title": "The Subscribers_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/subscribers"
+          ]
+        },
+        "subscription_url": {
+          "$id": "/properties/parent/properties/subscription_url",
+          "type": "string",
+          "title": "The Subscription_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/subscription"
+          ]
+        },
+        "commits_url": {
+          "$id": "/properties/parent/properties/commits_url",
+          "type": "string",
+          "title": "The Commits_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/commits{/sha}"
+          ]
+        },
+        "git_commits_url": {
+          "$id": "/properties/parent/properties/git_commits_url",
+          "type": "string",
+          "title": "The Git_commits_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/git/commits{/sha}"
+          ]
+        },
+        "comments_url": {
+          "$id": "/properties/parent/properties/comments_url",
+          "type": "string",
+          "title": "The Comments_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/comments{/number}"
+          ]
+        },
+        "issue_comment_url": {
+          "$id": "/properties/parent/properties/issue_comment_url",
+          "type": "string",
+          "title": "The Issue_comment_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/issues/comments{/number}"
+          ]
+        },
+        "contents_url": {
+          "$id": "/properties/parent/properties/contents_url",
+          "type": "string",
+          "title": "The Contents_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/contents/{+path}"
+          ]
+        },
+        "compare_url": {
+          "$id": "/properties/parent/properties/compare_url",
+          "type": "string",
+          "title": "The Compare_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/compare/{base}...{head}"
+          ]
+        },
+        "merges_url": {
+          "$id": "/properties/parent/properties/merges_url",
+          "type": "string",
+          "title": "The Merges_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/merges"
+          ]
+        },
+        "archive_url": {
+          "$id": "/properties/parent/properties/archive_url",
+          "type": "string",
+          "title": "The Archive_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/{archive_format}{/ref}"
+          ]
+        },
+        "downloads_url": {
+          "$id": "/properties/parent/properties/downloads_url",
+          "type": "string",
+          "title": "The Downloads_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/downloads"
+          ]
+        },
+        "issues_url": {
+          "$id": "/properties/parent/properties/issues_url",
+          "type": "string",
+          "title": "The Issues_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/issues{/number}"
+          ]
+        },
+        "pulls_url": {
+          "$id": "/properties/parent/properties/pulls_url",
+          "type": "string",
+          "title": "The Pulls_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/pulls{/number}"
+          ]
+        },
+        "milestones_url": {
+          "$id": "/properties/parent/properties/milestones_url",
+          "type": "string",
+          "title": "The Milestones_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/milestones{/number}"
+          ]
+        },
+        "notifications_url": {
+          "$id": "/properties/parent/properties/notifications_url",
+          "type": "string",
+          "title": "The Notifications_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/notifications{?since,all,participating}"
+          ]
+        },
+        "labels_url": {
+          "$id": "/properties/parent/properties/labels_url",
+          "type": "string",
+          "title": "The Labels_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/labels{/name}"
+          ]
+        },
+        "releases_url": {
+          "$id": "/properties/parent/properties/releases_url",
+          "type": "string",
+          "title": "The Releases_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/releases{/id}"
+          ]
+        },
+        "deployments_url": {
+          "$id": "/properties/parent/properties/deployments_url",
+          "type": "string",
+          "title": "The Deployments_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/deployments"
+          ]
+        },
+        "created_at": {
+          "$id": "/properties/parent/properties/created_at",
+          "type": "string",
+          "title": "The Created_at Schema ",
+          "default": "",
+          "examples": [
+            "2016-12-02T15:53:14Z"
+          ]
+        },
+        "updated_at": {
+          "$id": "/properties/parent/properties/updated_at",
+          "type": "string",
+          "title": "The Updated_at Schema ",
+          "default": "",
+          "examples": [
+            "2018-05-19T04:00:52Z"
+          ]
+        },
+        "pushed_at": {
+          "$id": "/properties/parent/properties/pushed_at",
+          "type": "string",
+          "title": "The Pushed_at Schema ",
+          "default": "",
+          "examples": [
+            "2018-05-10T16:09:07Z"
+          ]
+        },
+        "git_url": {
+          "$id": "/properties/parent/properties/git_url",
+          "type": "string",
+          "title": "The Git_url Schema ",
+          "default": "",
+          "examples": [
+            "git://github.com/florent37/SingleDateAndTimePicker.git"
+          ]
+        },
+        "ssh_url": {
+          "$id": "/properties/parent/properties/ssh_url",
+          "type": "string",
+          "title": "The Ssh_url Schema ",
+          "default": "",
+          "examples": [
+            "git@github.com:florent37/SingleDateAndTimePicker.git"
+          ]
+        },
+        "clone_url": {
+          "$id": "/properties/parent/properties/clone_url",
+          "type": "string",
+          "title": "The Clone_url Schema ",
+          "default": "",
+          "examples": [
+            "https://github.com/florent37/SingleDateAndTimePicker.git"
+          ]
+        },
+        "svn_url": {
+          "$id": "/properties/parent/properties/svn_url",
+          "type": "string",
+          "title": "The Svn_url Schema ",
+          "default": "",
+          "examples": [
+            "https://github.com/florent37/SingleDateAndTimePicker"
+          ]
+        },
+        "homepage": {
+          "$id": "/properties/parent/properties/homepage",
+          "type": "string",
+          "title": "The Homepage Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        },
+        "size": {
+          "$id": "/properties/parent/properties/size",
+          "type": "integer",
+          "title": "The Size Schema ",
+          "default": 0,
+          "examples": [
+            21827
+          ]
+        },
+        "stargazers_count": {
+          "$id": "/properties/parent/properties/stargazers_count",
+          "type": "integer",
+          "title": "The Stargazers_count Schema ",
+          "default": 0,
+          "examples": [
+            542
+          ]
+        },
+        "watchers_count": {
+          "$id": "/properties/parent/properties/watchers_count",
+          "type": "integer",
+          "title": "The Watchers_count Schema ",
+          "default": 0,
+          "examples": [
+            542
+          ]
+        },
+        "language": {
+          "$id": "/properties/parent/properties/language",
+          "type": "string",
+          "title": "The Language Schema ",
+          "default": "",
+          "examples": [
+            "Java"
+          ]
+        },
+        "has_issues": {
+          "$id": "/properties/parent/properties/has_issues",
+          "type": "boolean",
+          "title": "The Has_issues Schema ",
+          "default": false,
+          "examples": [
+            true
+          ]
+        },
+        "has_projects": {
+          "$id": "/properties/parent/properties/has_projects",
+          "type": "boolean",
+          "title": "The Has_projects Schema ",
+          "default": false,
+          "examples": [
+            true
+          ]
+        },
+        "has_downloads": {
+          "$id": "/properties/parent/properties/has_downloads",
+          "type": "boolean",
+          "title": "The Has_downloads Schema ",
+          "default": false,
+          "examples": [
+            true
+          ]
+        },
+        "has_wiki": {
+          "$id": "/properties/parent/properties/has_wiki",
+          "type": "boolean",
+          "title": "The Has_wiki Schema ",
+          "default": false,
+          "examples": [
+            true
+          ]
+        },
+        "has_pages": {
+          "$id": "/properties/parent/properties/has_pages",
+          "type": "boolean",
+          "title": "The Has_pages Schema ",
+          "default": false,
+          "examples": [
+            false
+          ]
+        },
+        "forks_count": {
+          "$id": "/properties/parent/properties/forks_count",
+          "type": "integer",
+          "title": "The Forks_count Schema ",
+          "default": 0,
+          "examples": [
+            144
+          ]
+        },
+        "mirror_url": {
+          "$id": "/properties/parent/properties/mirror_url",
+          "type": "null",
+          "title": "The Mirror_url Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "archived": {
+          "$id": "/properties/parent/properties/archived",
+          "type": "boolean",
+          "title": "The Archived Schema ",
+          "default": false,
+          "examples": [
+            false
+          ]
+        },
+        "open_issues_count": {
+          "$id": "/properties/parent/properties/open_issues_count",
+          "type": "integer",
+          "title": "The Open_issues_count Schema ",
+          "default": 0,
+          "examples": [
+            47
+          ]
+        },
+        "license": {
+          "$id": "/properties/parent/properties/license",
+          "type": "object",
+          "properties": {
+            "key": {
+              "$id": "/properties/parent/properties/license/properties/key",
+              "type": "string",
+              "title": "The Key Schema ",
+              "default": "",
+              "examples": [
+                "apache-2.0"
+              ]
+            },
+            "name": {
+              "$id": "/properties/parent/properties/license/properties/name",
+              "type": "string",
+              "title": "The Name Schema ",
+              "default": "",
+              "examples": [
+                "Apache License 2.0"
+              ]
+            },
+            "spdx_id": {
+              "$id": "/properties/parent/properties/license/properties/spdx_id",
+              "type": "string",
+              "title": "The Spdx_id Schema ",
+              "default": "",
+              "examples": [
+                "Apache-2.0"
+              ]
+            },
+            "url": {
+              "$id": "/properties/parent/properties/license/properties/url",
+              "type": "string",
+              "title": "The Url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/licenses/apache-2.0"
+              ]
+            }
+          }
+        },
+        "forks": {
+          "$id": "/properties/parent/properties/forks",
+          "type": "integer",
+          "title": "The Forks Schema ",
+          "default": 0,
+          "examples": [
+            144
+          ]
+        },
+        "open_issues": {
+          "$id": "/properties/parent/properties/open_issues",
+          "type": "integer",
+          "title": "The Open_issues Schema ",
+          "default": 0,
+          "examples": [
+            47
+          ]
+        },
+        "watchers": {
+          "$id": "/properties/parent/properties/watchers",
+          "type": "integer",
+          "title": "The Watchers Schema ",
+          "default": 0,
+          "examples": [
+            542
+          ]
+        },
+        "default_branch": {
+          "$id": "/properties/parent/properties/default_branch",
+          "type": "string",
+          "title": "The Default_branch Schema ",
+          "default": "",
+          "examples": [
+            "master"
+          ]
+        }
+      }
+    },
+    "source": {
+      "$id": "/properties/source",
+      "type": "object",
+      "properties": {
+        "id": {
+          "$id": "/properties/source/properties/id",
+          "type": "integer",
+          "title": "The Id Schema ",
+          "default": 0,
+          "examples": [
+            75409471
+          ]
+        },
+        "name": {
+          "$id": "/properties/source/properties/name",
+          "type": "string",
+          "title": "The Name Schema ",
+          "default": "",
+          "examples": [
+            "SingleDateAndTimePicker"
+          ]
+        },
+        "full_name": {
+          "$id": "/properties/source/properties/full_name",
+          "type": "string",
+          "title": "The Full_name Schema ",
+          "default": "",
+          "examples": [
+            "florent37/SingleDateAndTimePicker"
+          ]
+        },
+        "owner": {
+          "$id": "/properties/source/properties/owner",
+          "type": "object",
+          "properties": {
+            "login": {
+              "$id": "/properties/source/properties/owner/properties/login",
+              "type": "string",
+              "title": "The Login Schema ",
+              "default": "",
+              "examples": [
+                "florent37"
+              ]
+            },
+            "id": {
+              "$id": "/properties/source/properties/owner/properties/id",
+              "type": "integer",
+              "title": "The Id Schema ",
+              "default": 0,
+              "examples": [
+                5754972
+              ]
+            },
+            "avatar_url": {
+              "$id": "/properties/source/properties/owner/properties/avatar_url",
+              "type": "string",
+              "title": "The Avatar_url Schema ",
+              "default": "",
+              "examples": [
+                "https://avatars2.githubusercontent.com/u/5754972?v=4"
+              ]
+            },
+            "gravatar_id": {
+              "$id": "/properties/source/properties/owner/properties/gravatar_id",
+              "type": "string",
+              "title": "The Gravatar_id Schema ",
+              "default": "",
+              "examples": [
+                ""
+              ]
+            },
+            "url": {
+              "$id": "/properties/source/properties/owner/properties/url",
+              "type": "string",
+              "title": "The Url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/users/florent37"
+              ]
+            },
+            "html_url": {
+              "$id": "/properties/source/properties/owner/properties/html_url",
+              "type": "string",
+              "title": "The Html_url Schema ",
+              "default": "",
+              "examples": [
+                "https://github.com/florent37"
+              ]
+            },
+            "followers_url": {
+              "$id": "/properties/source/properties/owner/properties/followers_url",
+              "type": "string",
+              "title": "The Followers_url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/users/florent37/followers"
+              ]
+            },
+            "following_url": {
+              "$id": "/properties/source/properties/owner/properties/following_url",
+              "type": "string",
+              "title": "The Following_url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/users/florent37/following{/other_user}"
+              ]
+            },
+            "gists_url": {
+              "$id": "/properties/source/properties/owner/properties/gists_url",
+              "type": "string",
+              "title": "The Gists_url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/users/florent37/gists{/gist_id}"
+              ]
+            },
+            "starred_url": {
+              "$id": "/properties/source/properties/owner/properties/starred_url",
+              "type": "string",
+              "title": "The Starred_url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/users/florent37/starred{/owner}{/repo}"
+              ]
+            },
+            "subscriptions_url": {
+              "$id": "/properties/source/properties/owner/properties/subscriptions_url",
+              "type": "string",
+              "title": "The Subscriptions_url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/users/florent37/subscriptions"
+              ]
+            },
+            "organizations_url": {
+              "$id": "/properties/source/properties/owner/properties/organizations_url",
+              "type": "string",
+              "title": "The Organizations_url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/users/florent37/orgs"
+              ]
+            },
+            "repos_url": {
+              "$id": "/properties/source/properties/owner/properties/repos_url",
+              "type": "string",
+              "title": "The Repos_url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/users/florent37/repos"
+              ]
+            },
+            "events_url": {
+              "$id": "/properties/source/properties/owner/properties/events_url",
+              "type": "string",
+              "title": "The Events_url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/users/florent37/events{/privacy}"
+              ]
+            },
+            "received_events_url": {
+              "$id": "/properties/source/properties/owner/properties/received_events_url",
+              "type": "string",
+              "title": "The Received_events_url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/users/florent37/received_events"
+              ]
+            },
+            "type": {
+              "$id": "/properties/source/properties/owner/properties/type",
+              "type": "string",
+              "title": "The Type Schema ",
+              "default": "",
+              "examples": [
+                "User"
+              ]
+            },
+            "site_admin": {
+              "$id": "/properties/source/properties/owner/properties/site_admin",
+              "type": "boolean",
+              "title": "The Site_admin Schema ",
+              "default": false,
+              "examples": [
+                false
+              ]
+            }
+          }
+        },
+        "private": {
+          "$id": "/properties/source/properties/private",
+          "type": "boolean",
+          "title": "The Private Schema ",
+          "default": false,
+          "examples": [
+            false
+          ]
+        },
+        "html_url": {
+          "$id": "/properties/source/properties/html_url",
+          "type": "string",
+          "title": "The Html_url Schema ",
+          "default": "",
+          "examples": [
+            "https://github.com/florent37/SingleDateAndTimePicker"
+          ]
+        },
+        "description": {
+          "$id": "/properties/source/properties/description",
+          "type": "string",
+          "title": "The Description Schema ",
+          "default": "",
+          "examples": [
+            "You can now select a date and a time with only one widget !"
+          ]
+        },
+        "fork": {
+          "$id": "/properties/source/properties/fork",
+          "type": "boolean",
+          "title": "The Fork Schema ",
+          "default": false,
+          "examples": [
+            false
+          ]
+        },
+        "url": {
+          "$id": "/properties/source/properties/url",
+          "type": "string",
+          "title": "The Url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker"
+          ]
+        },
+        "forks_url": {
+          "$id": "/properties/source/properties/forks_url",
+          "type": "string",
+          "title": "The Forks_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/forks"
+          ]
+        },
+        "keys_url": {
+          "$id": "/properties/source/properties/keys_url",
+          "type": "string",
+          "title": "The Keys_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/keys{/key_id}"
+          ]
+        },
+        "collaborators_url": {
+          "$id": "/properties/source/properties/collaborators_url",
+          "type": "string",
+          "title": "The Collaborators_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/collaborators{/collaborator}"
+          ]
+        },
+        "teams_url": {
+          "$id": "/properties/source/properties/teams_url",
+          "type": "string",
+          "title": "The Teams_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/teams"
+          ]
+        },
+        "hooks_url": {
+          "$id": "/properties/source/properties/hooks_url",
+          "type": "string",
+          "title": "The Hooks_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/hooks"
+          ]
+        },
+        "issue_events_url": {
+          "$id": "/properties/source/properties/issue_events_url",
+          "type": "string",
+          "title": "The Issue_events_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/issues/events{/number}"
+          ]
+        },
+        "events_url": {
+          "$id": "/properties/source/properties/events_url",
+          "type": "string",
+          "title": "The Events_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/events"
+          ]
+        },
+        "assignees_url": {
+          "$id": "/properties/source/properties/assignees_url",
+          "type": "string",
+          "title": "The Assignees_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/assignees{/user}"
+          ]
+        },
+        "branches_url": {
+          "$id": "/properties/source/properties/branches_url",
+          "type": "string",
+          "title": "The Branches_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/branches{/branch}"
+          ]
+        },
+        "tags_url": {
+          "$id": "/properties/source/properties/tags_url",
+          "type": "string",
+          "title": "The Tags_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/tags"
+          ]
+        },
+        "blobs_url": {
+          "$id": "/properties/source/properties/blobs_url",
+          "type": "string",
+          "title": "The Blobs_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/git/blobs{/sha}"
+          ]
+        },
+        "git_tags_url": {
+          "$id": "/properties/source/properties/git_tags_url",
+          "type": "string",
+          "title": "The Git_tags_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/git/tags{/sha}"
+          ]
+        },
+        "git_refs_url": {
+          "$id": "/properties/source/properties/git_refs_url",
+          "type": "string",
+          "title": "The Git_refs_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/git/refs{/sha}"
+          ]
+        },
+        "trees_url": {
+          "$id": "/properties/source/properties/trees_url",
+          "type": "string",
+          "title": "The Trees_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/git/trees{/sha}"
+          ]
+        },
+        "statuses_url": {
+          "$id": "/properties/source/properties/statuses_url",
+          "type": "string",
+          "title": "The Statuses_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/statuses/{sha}"
+          ]
+        },
+        "languages_url": {
+          "$id": "/properties/source/properties/languages_url",
+          "type": "string",
+          "title": "The Languages_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/languages"
+          ]
+        },
+        "stargazers_url": {
+          "$id": "/properties/source/properties/stargazers_url",
+          "type": "string",
+          "title": "The Stargazers_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/stargazers"
+          ]
+        },
+        "contributors_url": {
+          "$id": "/properties/source/properties/contributors_url",
+          "type": "string",
+          "title": "The Contributors_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/contributors"
+          ]
+        },
+        "subscribers_url": {
+          "$id": "/properties/source/properties/subscribers_url",
+          "type": "string",
+          "title": "The Subscribers_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/subscribers"
+          ]
+        },
+        "subscription_url": {
+          "$id": "/properties/source/properties/subscription_url",
+          "type": "string",
+          "title": "The Subscription_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/subscription"
+          ]
+        },
+        "commits_url": {
+          "$id": "/properties/source/properties/commits_url",
+          "type": "string",
+          "title": "The Commits_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/commits{/sha}"
+          ]
+        },
+        "git_commits_url": {
+          "$id": "/properties/source/properties/git_commits_url",
+          "type": "string",
+          "title": "The Git_commits_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/git/commits{/sha}"
+          ]
+        },
+        "comments_url": {
+          "$id": "/properties/source/properties/comments_url",
+          "type": "string",
+          "title": "The Comments_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/comments{/number}"
+          ]
+        },
+        "issue_comment_url": {
+          "$id": "/properties/source/properties/issue_comment_url",
+          "type": "string",
+          "title": "The Issue_comment_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/issues/comments{/number}"
+          ]
+        },
+        "contents_url": {
+          "$id": "/properties/source/properties/contents_url",
+          "type": "string",
+          "title": "The Contents_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/contents/{+path}"
+          ]
+        },
+        "compare_url": {
+          "$id": "/properties/source/properties/compare_url",
+          "type": "string",
+          "title": "The Compare_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/compare/{base}...{head}"
+          ]
+        },
+        "merges_url": {
+          "$id": "/properties/source/properties/merges_url",
+          "type": "string",
+          "title": "The Merges_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/merges"
+          ]
+        },
+        "archive_url": {
+          "$id": "/properties/source/properties/archive_url",
+          "type": "string",
+          "title": "The Archive_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/{archive_format}{/ref}"
+          ]
+        },
+        "downloads_url": {
+          "$id": "/properties/source/properties/downloads_url",
+          "type": "string",
+          "title": "The Downloads_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/downloads"
+          ]
+        },
+        "issues_url": {
+          "$id": "/properties/source/properties/issues_url",
+          "type": "string",
+          "title": "The Issues_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/issues{/number}"
+          ]
+        },
+        "pulls_url": {
+          "$id": "/properties/source/properties/pulls_url",
+          "type": "string",
+          "title": "The Pulls_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/pulls{/number}"
+          ]
+        },
+        "milestones_url": {
+          "$id": "/properties/source/properties/milestones_url",
+          "type": "string",
+          "title": "The Milestones_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/milestones{/number}"
+          ]
+        },
+        "notifications_url": {
+          "$id": "/properties/source/properties/notifications_url",
+          "type": "string",
+          "title": "The Notifications_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/notifications{?since,all,participating}"
+          ]
+        },
+        "labels_url": {
+          "$id": "/properties/source/properties/labels_url",
+          "type": "string",
+          "title": "The Labels_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/labels{/name}"
+          ]
+        },
+        "releases_url": {
+          "$id": "/properties/source/properties/releases_url",
+          "type": "string",
+          "title": "The Releases_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/releases{/id}"
+          ]
+        },
+        "deployments_url": {
+          "$id": "/properties/source/properties/deployments_url",
+          "type": "string",
+          "title": "The Deployments_url Schema ",
+          "default": "",
+          "examples": [
+            "https://api.github.com/repos/florent37/SingleDateAndTimePicker/deployments"
+          ]
+        },
+        "created_at": {
+          "$id": "/properties/source/properties/created_at",
+          "type": "string",
+          "title": "The Created_at Schema ",
+          "default": "",
+          "examples": [
+            "2016-12-02T15:53:14Z"
+          ]
+        },
+        "updated_at": {
+          "$id": "/properties/source/properties/updated_at",
+          "type": "string",
+          "title": "The Updated_at Schema ",
+          "default": "",
+          "examples": [
+            "2018-05-19T04:00:52Z"
+          ]
+        },
+        "pushed_at": {
+          "$id": "/properties/source/properties/pushed_at",
+          "type": "string",
+          "title": "The Pushed_at Schema ",
+          "default": "",
+          "examples": [
+            "2018-05-10T16:09:07Z"
+          ]
+        },
+        "git_url": {
+          "$id": "/properties/source/properties/git_url",
+          "type": "string",
+          "title": "The Git_url Schema ",
+          "default": "",
+          "examples": [
+            "git://github.com/florent37/SingleDateAndTimePicker.git"
+          ]
+        },
+        "ssh_url": {
+          "$id": "/properties/source/properties/ssh_url",
+          "type": "string",
+          "title": "The Ssh_url Schema ",
+          "default": "",
+          "examples": [
+            "git@github.com:florent37/SingleDateAndTimePicker.git"
+          ]
+        },
+        "clone_url": {
+          "$id": "/properties/source/properties/clone_url",
+          "type": "string",
+          "title": "The Clone_url Schema ",
+          "default": "",
+          "examples": [
+            "https://github.com/florent37/SingleDateAndTimePicker.git"
+          ]
+        },
+        "svn_url": {
+          "$id": "/properties/source/properties/svn_url",
+          "type": "string",
+          "title": "The Svn_url Schema ",
+          "default": "",
+          "examples": [
+            "https://github.com/florent37/SingleDateAndTimePicker"
+          ]
+        },
+        "homepage": {
+          "$id": "/properties/source/properties/homepage",
+          "type": "string",
+          "title": "The Homepage Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        },
+        "size": {
+          "$id": "/properties/source/properties/size",
+          "type": "integer",
+          "title": "The Size Schema ",
+          "default": 0,
+          "examples": [
+            21827
+          ]
+        },
+        "stargazers_count": {
+          "$id": "/properties/source/properties/stargazers_count",
+          "type": "integer",
+          "title": "The Stargazers_count Schema ",
+          "default": 0,
+          "examples": [
+            542
+          ]
+        },
+        "watchers_count": {
+          "$id": "/properties/source/properties/watchers_count",
+          "type": "integer",
+          "title": "The Watchers_count Schema ",
+          "default": 0,
+          "examples": [
+            542
+          ]
+        },
+        "language": {
+          "$id": "/properties/source/properties/language",
+          "type": "string",
+          "title": "The Language Schema ",
+          "default": "",
+          "examples": [
+            "Java"
+          ]
+        },
+        "has_issues": {
+          "$id": "/properties/source/properties/has_issues",
+          "type": "boolean",
+          "title": "The Has_issues Schema ",
+          "default": false,
+          "examples": [
+            true
+          ]
+        },
+        "has_projects": {
+          "$id": "/properties/source/properties/has_projects",
+          "type": "boolean",
+          "title": "The Has_projects Schema ",
+          "default": false,
+          "examples": [
+            true
+          ]
+        },
+        "has_downloads": {
+          "$id": "/properties/source/properties/has_downloads",
+          "type": "boolean",
+          "title": "The Has_downloads Schema ",
+          "default": false,
+          "examples": [
+            true
+          ]
+        },
+        "has_wiki": {
+          "$id": "/properties/source/properties/has_wiki",
+          "type": "boolean",
+          "title": "The Has_wiki Schema ",
+          "default": false,
+          "examples": [
+            true
+          ]
+        },
+        "has_pages": {
+          "$id": "/properties/source/properties/has_pages",
+          "type": "boolean",
+          "title": "The Has_pages Schema ",
+          "default": false,
+          "examples": [
+            false
+          ]
+        },
+        "forks_count": {
+          "$id": "/properties/source/properties/forks_count",
+          "type": "integer",
+          "title": "The Forks_count Schema ",
+          "default": 0,
+          "examples": [
+            144
+          ]
+        },
+        "mirror_url": {
+          "$id": "/properties/source/properties/mirror_url",
+          "type": "null",
+          "title": "The Mirror_url Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "archived": {
+          "$id": "/properties/source/properties/archived",
+          "type": "boolean",
+          "title": "The Archived Schema ",
+          "default": false,
+          "examples": [
+            false
+          ]
+        },
+        "open_issues_count": {
+          "$id": "/properties/source/properties/open_issues_count",
+          "type": "integer",
+          "title": "The Open_issues_count Schema ",
+          "default": 0,
+          "examples": [
+            47
+          ]
+        },
+        "license": {
+          "$id": "/properties/source/properties/license",
+          "type": "object",
+          "properties": {
+            "key": {
+              "$id": "/properties/source/properties/license/properties/key",
+              "type": "string",
+              "title": "The Key Schema ",
+              "default": "",
+              "examples": [
+                "apache-2.0"
+              ]
+            },
+            "name": {
+              "$id": "/properties/source/properties/license/properties/name",
+              "type": "string",
+              "title": "The Name Schema ",
+              "default": "",
+              "examples": [
+                "Apache License 2.0"
+              ]
+            },
+            "spdx_id": {
+              "$id": "/properties/source/properties/license/properties/spdx_id",
+              "type": "string",
+              "title": "The Spdx_id Schema ",
+              "default": "",
+              "examples": [
+                "Apache-2.0"
+              ]
+            },
+            "url": {
+              "$id": "/properties/source/properties/license/properties/url",
+              "type": "string",
+              "title": "The Url Schema ",
+              "default": "",
+              "examples": [
+                "https://api.github.com/licenses/apache-2.0"
+              ]
+            }
+          }
+        },
+        "forks": {
+          "$id": "/properties/source/properties/forks",
+          "type": "integer",
+          "title": "The Forks Schema ",
+          "default": 0,
+          "examples": [
+            144
+          ]
+        },
+        "open_issues": {
+          "$id": "/properties/source/properties/open_issues",
+          "type": "integer",
+          "title": "The Open_issues Schema ",
+          "default": 0,
+          "examples": [
+            47
+          ]
+        },
+        "watchers": {
+          "$id": "/properties/source/properties/watchers",
+          "type": "integer",
+          "title": "The Watchers Schema ",
+          "default": 0,
+          "examples": [
+            542
+          ]
+        },
+        "default_branch": {
+          "$id": "/properties/source/properties/default_branch",
+          "type": "string",
+          "title": "The Default_branch Schema ",
+          "default": "",
+          "examples": [
+            "master"
+          ]
+        }
+      }
+    },
+    "network_count": {
+      "$id": "/properties/network_count",
+      "type": "integer",
+      "title": "The Network_count Schema ",
+      "default": 0,
+      "examples": [
+        144
+      ]
+    },
+    "subscribers_count": {
+      "$id": "/properties/subscribers_count",
+      "type": "integer",
+      "title": "The Subscribers_count Schema ",
+      "default": 0,
+      "examples": [
+        2
+      ]
+    }
+  }
+}
